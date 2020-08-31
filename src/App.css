@@ -1,0 +1,206 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 20vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.sidenav{
+  background-color: #282c34;
+  border: 1px solid royalblue;
+}
+.navlink{
+  text-decoration: none;
+  width:30%;
+  color: azure;
+  font-size: 20px;
+  margin-top: 5px;
+  border:1px solid azure;
+  margin-right: 5px;
+}
+.navlink:hover{
+  text-decoration: none;
+  width:30%;
+  background-color: azure;
+  color: #000000;
+  font-size: 20px;
+  margin-top: 5px;
+  border:1px solid azure;
+  margin-right: 5px;
+}
+.logout{
+  text-decoration: none;
+  width:30%;
+  color: azure;
+  font-size: 20px;
+  margin-top: 5px;
+  border:1px solid azure;
+  margin-right: 5px;
+}
+
+.column1{
+    font-family: Lato-Bold;
+    font-size: 18px;
+    color: #fff;
+    line-height: 1.4;
+    background-color: #6c7ae0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    width: 4%;
+    border-radius: 3px;
+}
+
+.column2{
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #6c7ae0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width:6%;
+}
+.column3{
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #6c7ae0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width:4%;
+}
+.column4{
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #6c7ae0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width:6%;
+}
+.column5{
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #6c7ae0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width:10%;
+}
+.column6{
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #6c7ae0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width:6%;
+}
+.column7{
+  font-family: Lato-Bold;
+  font-size: 18px;
+  color: #fff;
+  line-height: 1.4;
+  background-color: #6c7ae0;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  width:8%;
+}
+.loginForm{
+  margin-top: 2%;
+  margin-bottom: 7%;
+  background-color: #dcedf3;
+  padding: 3%;
+  width: 50%;
+  margin-left: 20%;
+
+}
+.loginBtn{
+  margin-left: 45%;
+  margin-top: 5px;
+}
+.signupForm{
+  margin-top: 2%;
+  margin-bottom: 7%;
+  background-color: #dcedf3;
+  padding: 3%;
+  width: 50%;
+  margin-left: 20%;
+}
+.formLabel{
+  margin-top: 5px;
+}
+.formInput{
+  margin-top: 5px;
+}
+.formInput:focus{
+  margin-top: 2px;
+  background-color: lightgoldenrodyellow;
+
+}
+.lastformInput{
+  margin-top: 2px;
+  margin-right: 28%;
+  float:right;
+}
+.lastformInput:focus{
+  margin-top: 2px;
+  margin-right: 28%;
+  float:right;
+  background-color: lightgoldenrodyellow;
+}
+.lastformInput::after{
+  clear: both;
+  display: block;
+}
+.addformLabel{
+  margin-left: 40%;
+  float: left;
+  margin-top: 2px;
+}
+.addformInput{
+  margin-top: 2px;
+  margin-right: 40%;
+  float:right;
+}
+.addformInput:focus{
+  margin-top: 2px;
+  margin-right: 40%;
+  float:right;
+  background-color: lightgoldenrodyellow;
+
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

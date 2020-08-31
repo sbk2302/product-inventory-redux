@@ -1,0 +1,62 @@
+{
+  "allproducts": [
+    {
+      "name": "Black Trousers",
+      "price": "1000",
+      "quantity": "30",
+      "image": "black-trousers.jpg",
+      "category": "Men clothing",
+      "brand": "Arrow",
+      "id": "5"
+    },
+    {
+      "name": "Black Shirt",
+      "price": "500",
+      "quantity": "23",
+      "image": "black-shirt.jpg",
+      "category": "clothing",
+      "brand": "Arrow",
+      "id": "23"
+    },
+    {
+      "name": "Watch",
+      "price": "900",
+      "quantity": "55",
+      "image": "watch.jpg",
+      "category": "Men accessories",
+      "brand": "Casio",
+      "id": "66"
+    }
+  ],
+  "duplicateproducts": [
+    {
+      "name": "White Shirt",
+      "price": "400",
+      "quantity": "50",
+      "category": "Men clothing",
+      "brand": "UCB",
+      "id": "2"
+    }
+  ],
+  "userdetails": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "admin"
+    },
+    {
+      "firstname": "bharath",
+      "lastname": "kumar",
+      "username": "sbk@test.com",
+      "password": "test",
+      "id": "u1RuvyM"
+    },
+    {
+      "firstname": "test",
+      "lastname": "",
+      "username": "797919.test@gmail.com",
+      "password": "admin",
+      "id": "OSIKM9v"
+    }
+  ]
+}
